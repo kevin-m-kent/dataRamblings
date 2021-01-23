@@ -72,7 +72,7 @@ event_data_expanded
 
 Great! Now the dt column has all the minutes that each session was active expanded in a tidy format.
 
-# Visualizing
+# Visualize
 
 Let's see how many concurrent sessions there were over time.
 
