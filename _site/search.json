@@ -2,25 +2,24 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "title": "About",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-01-23T11:06:42-05:00"
+      "contents": "\nHi! My name is Kevin Kent and I work as a data scientist for Nuance Communications near Boston.\nGithub\nTwitter\nLinkedin\n\n\n\n",
+      "last_modified": "2021-01-23T11:18:51-05:00"
     },
     {
       "path": "gallery.html",
       "title": "Gallery of featured posts",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-01-23T11:06:43-05:00"
+      "last_modified": "2021-01-23T11:18:52-05:00"
     },
     {
       "path": "index.html",
       "title": "Data Ramblings",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-01-23T11:06:43-05:00"
+      "last_modified": "2021-01-23T11:18:52-05:00"
     }
   ],
   "collections": ["posts/posts.json"]

@@ -1,13 +1,9 @@
 ---
 title: "Welcome to Data Ramblings"
 description: |
-  Welcome to our new blog, Data Ramblings. We hope you enjoy 
-  reading what we have to say!
+  My latest attempt at sharing useful data science tidbits. Hope you enjoy!
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: Kevin Kent
 date: 01-23-2021
 output:
   distill::distill_article:
@@ -16,9 +12,6 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating blogs with Distill at:
-# https://rstudio.github.io/distill/blog.html
 
 ```
 

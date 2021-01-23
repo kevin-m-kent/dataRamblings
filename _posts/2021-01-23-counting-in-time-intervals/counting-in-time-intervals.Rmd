@@ -13,6 +13,9 @@ output:
 ```{r setup, include=FALSE}
 
 knitr::opts_chunk$set(echo = TRUE)
+
+options(width = 30)
+
 ```
 
 Have you ever had a dataset with start and end times for events where you wanted to know how many events were occuring simultaneously a given timestamp? 
@@ -28,11 +31,14 @@ Let's create a toy dataset of login and logout times, where we want to know how 
 library(tidyverse)
 library(lubridate)
 
-starting_times <- seq(from = as_datetime("2021-01-01 00:00:00"), to = as_datetime("2021-01-10 00:00:00"), by = "hour")
+starting_times <- seq(from = as_datetime("2021-01-01 00:00:00"), 
+                      to = as_datetime("2021-01-10 00:00:00"), by = "hour")
 
-ending_times <- seq(from = as_datetime("2021-01-10 00:00:00"), to = as_datetime("2021-01-20 00:00:00"), by = "hour")
+ending_times <- seq(from = as_datetime("2021-01-10 00:00:00"), 
+                    to = as_datetime("2021-01-20 00:00:00"), by = "hour")
 
-event_data <- tibble(event_num = paste0("session_", seq(1, 100, by = 1)), login = sample(starting_times, 100), logout =  sample(ending_times, 100))
+event_data <- tibble(event_num = paste0("session_", seq(1, 100, by = 1)), 
+                     login = sample(starting_times, 100), logout =  sample(ending_times, 100))
 
 ```
 
@@ -73,7 +79,8 @@ Let's see how many concurrent sessions there were over time.
 
 event_data_expanded %>%
   count(dt) %>%
-  ggplot(aes(dt, n)) + geom_col() + labs(title = "How many concurrent sessions were there over time?")
+  ggplot(aes(dt, n)) + 
+    geom_col() + labs(title = "How many concurrent sessions were there over time?")
 
 ```
 

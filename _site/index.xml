@@ -19,10 +19,9 @@
     </item>
     <item>
       <title>Welcome to Data Ramblings</title>
-      <dc:creator>Nora Jones</dc:creator>
+      <dc:creator>Kevin Kent</dc:creator>
       <link>https://kevin-m-kent.netlify.com/posts/welcome</link>
-      <description>Welcome to our new blog, Data Ramblings. We hope you enjoy 
-reading what we have to say!</description>
+      <description>My latest attempt at sharing useful data science tidbits. Hope you enjoy!</description>
       <guid>https://kevin-m-kent.netlify.com/posts/welcome</guid>
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
     </item>

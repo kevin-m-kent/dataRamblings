@@ -1,9 +1,15 @@
 ---
-title: "About this blog"
-description: |
-  Some additional details about the blog
+title: "About"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+Hi! My name is Kevin Kent and I work as a data scientist for Nuance Communications near Boston. 
+
+[Github](https://github.com/kevin-m-kent)
+
+[Twitter](https://twitter.com/kevin_m_kent) 
+
+[Linkedin](https://www.linkedin.com/in/kentmkevin/) 
