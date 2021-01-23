@@ -11,7 +11,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 Have you ever had a dataset with start and end times for events where you wanted to know how many events were occuring simultaneously a given timestamp? 
