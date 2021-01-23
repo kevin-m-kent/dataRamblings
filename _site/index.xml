@@ -9,15 +9,6 @@
     <generator>Distill</generator>
     <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Welcome to Data Ramblings</title>
-      <dc:creator>Nora Jones</dc:creator>
-      <link>https://kevin-m-kent.netlify.com/posts/welcome</link>
-      <description>Welcome to our new blog, Data Ramblings. We hope you enjoy 
-reading what we have to say!</description>
-      <guid>https://kevin-m-kent.netlify.com/posts/welcome</guid>
-      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Counting in Time Intervals</title>
       <dc:creator>Kevin Kent</dc:creator>
       <link>https://kevin-m-kent.netlify.com/posts/2021-01-23-counting-in-time-intervals</link>
@@ -25,6 +16,15 @@ reading what we have to say!</description>
       <guid>https://kevin-m-kent.netlify.com/posts/2021-01-23-counting-in-time-intervals</guid>
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
       <media:content url="https://kevin-m-kent.netlify.com/posts/2021-01-23-counting-in-time-intervals/counting-in-time-intervals_files/figure-html5/unnamed-chunk-4-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Welcome to Data Ramblings</title>
+      <dc:creator>Nora Jones</dc:creator>
+      <link>https://kevin-m-kent.netlify.com/posts/welcome</link>
+      <description>Welcome to our new blog, Data Ramblings. We hope you enjoy 
+reading what we have to say!</description>
+      <guid>https://kevin-m-kent.netlify.com/posts/welcome</guid>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
