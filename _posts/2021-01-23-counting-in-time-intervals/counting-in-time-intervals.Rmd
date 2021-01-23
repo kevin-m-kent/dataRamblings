@@ -63,7 +63,8 @@ The next step is to expand or unnest these datetime sequences into a long format
 
 event_data_expanded <- event_data_seq %>%
   unnest(dt_sequences) %>%
-  rename(dt = dt_sequences)
+  rename(dt = dt_sequences) %>%
+  select(event_num, dt)
 
 event_data_expanded 
 
