@@ -30,6 +30,7 @@ Let's create a toy dataset of login and logout times, where we want to know how 
 
 library(tidyverse)
 library(lubridate)
+source(here::here("imports.R"))
 
 starting_times <- seq(from = as_datetime("2021-01-01 00:00:00"), 
                       to = as_datetime("2021-01-10 00:00:00"), by = "hour")
@@ -83,7 +84,7 @@ event_data_expanded %>%
   ggplot(aes(dt, n)) + 
     geom_col() + labs(title = "How many concurrent sessions were there over time?",
                       x = "Time", y = "count",
-                      caption = "@kevin_m_kent") + theme_minimal() 
+                      caption = "@kevin_m_kent") + theme_me() 
 
 ```
 
