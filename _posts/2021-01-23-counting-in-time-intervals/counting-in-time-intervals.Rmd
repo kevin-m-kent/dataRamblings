@@ -81,7 +81,9 @@ Let's see how many concurrent sessions there were over time.
 event_data_expanded %>%
   count(dt) %>%
   ggplot(aes(dt, n)) + 
-    geom_col() + labs(title = "How many concurrent sessions were there over time?")
+    geom_col() + labs(title = "How many concurrent sessions were there over time?",
+                      x = "Time", y = "count",
+                      caption = "@kevin_m_kent") + theme_minimal() 
 
 ```
 
